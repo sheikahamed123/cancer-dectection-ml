@@ -1,0 +1,29 @@
+project output
+
+
+runfile('C:/Users/HP/Desktop/projectpython.py', wdir='C:/Users/HP/Desktop')
+Dataset:
+59
+     Name      Surname  Age  Smokes  AreaQ  Alkhol  Result
+0    John         Wick   35       3      5       4       1
+1    John  Constantine   27      20      2       5       1
+2  Camela     Anderson   30       0      5       2       0
+3    Alex       Telles   28       0      8       1       0
+4   Diego     Maradona   68       4      5       6       1
+---------------------USING KNN ALGORITHM----------------------
+6.855654600401044
+[0 0 1 1 0 0 0 0 1 1 0 0]
+confusion matrix
+[[7 1]
+ [1 3]]
+In confusion matrix-----
+Position 1.1 shows the position that don't have cancer, in this case = 8
+Position 1.2 shows the number of patients that have higher risk of cancer, in this case = 1
+Position 2.1 shows the incorrect value,in this case = 2
+Position 2.2 shows the correct number of patients that have cancer, in this case =2
+F1 Score :  75.0
+ACCURACY :  83.33333333333334
+--------------------USING DECISION TREE ALGORITHM-------------------
+Clssification accuracy on train 95.74468085106383
+Classification accuracy on test 75.0
+
